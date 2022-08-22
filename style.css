@@ -54,3 +54,13 @@ small{
   p.mt-15{
     margin-top: 15px;
   }
+
+  .bg-info{
+    background-color: #289BDE !important;
+  }
+
+  
+.faq{
+  width: 70%;
+  margin-left: 185px;
+}
