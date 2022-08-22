@@ -40,3 +40,17 @@ small{
     padding-right: 2rem !important;
     padding-left: 2rem !important;
   }
+
+  /* course */
+
+  span.course{
+    margin-left: 5px;
+  }
+
+  .display-6 {
+    font-size: 2.8125rem;
+  }
+
+  p.mt-15{
+    margin-top: 15px;
+  }
