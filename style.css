@@ -43,6 +43,12 @@ small{
 
   /* course */
 
+  .img-fluid {
+    max-width: 103%;
+    height: auto;
+    margin-left: -13px;
+}
+
   span.course{
     margin-left: 5px;
   }
@@ -67,4 +73,95 @@ small{
 
 small.footer{
   margin-left: 0px;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+            button.navbar-toggler span{
+              margin-left: 0px;
+            }
+
+            .navbar{
+              margin-bottom: 5px;
+            }
+
+            div.container-fluid{
+              padding-bottom: 10px;
+            }
+
+            div.carousel-inner h1{
+              font-size: 30px;
+              margin-top: 100px;
+            }
+
+            div h1 span{
+              margin-left: 70px;
+            }
+
+            div small{
+              margin-left: -60px;
+              display: block;
+              width: 73%;
+            }
+
+            .ms-3 {
+              margin-left: 3rem !important;
+              margin-bottom: 20px;
+          }
+
+        .img-fluid {
+            max-width: 103%;
+            margin-left: -12px;
+        }
+
+        .gap-5 {
+          gap: 0rem!important;
+      }
+
+      section p.my-course{
+        width: 100%;
+        font-size: 15px;
+      }
+
+      section#register div a{
+        margin-left: -200px;
+        margin-top: -100px;
+        position: relative;
+        top: -140px;
+        left: 60px;
+      }
+
+      section#register div.d-flex{
+        display: block!important;
+      }
+
+      section#register h2{
+        width: 117%;
+        margin-left: 110px;
+      }
+        
+      section#register p{
+            width: 183%;
+            font-size: 10px;
+            margin-left: 70px;
+      }
+
+      section#about p{
+        font-size: 15px;
+      }
+    
+      div.accordion{
+        margin-left: -210px;
+        width: 157%;
+      }
+
+      section.companies{
+        display: none;
+      }
+
+      section.footer small{
+        margin-left: 80px;
+      }
 }
