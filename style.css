@@ -81,13 +81,11 @@ small.footer{
 
 /* mobile device */
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
 
 
                   
                 .container{
-                  
-      
                   margin-left: auto;
                   margin-right: auto;
               }
@@ -129,7 +127,7 @@ small.footer{
               width: 73%;
             }
 
-            .ms-3 {
+            div.ms-3{
               margin-left: 3rem !important;
               margin-bottom: 60px;
           }
@@ -195,11 +193,11 @@ small.footer{
 
  /* tab and ipad  */
 
- @media screen and (min-width: 769px) and (max-width: 992px)  {
+ @media screen and (min-width: 768px) and (max-width: 992px)  {
   .container{
    
     margin-left: auto;
-margin-right: auto;
+    margin-right: auto;
 }
 
 button.navbar-toggler span{
@@ -230,8 +228,8 @@ div small{
   width: 60%;
 }
 
-div.ms-3 button{
-  margin-left: -100px;
+div.ms-3 {
+  margin-left: 5rem!important
 }
 
 .img-fluid {
